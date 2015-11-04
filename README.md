@@ -53,3 +53,7 @@ __@Get method:__ The get method URL is http://localhost:8080/restbeesmart/classp
 }
 ```
 Make sure that you have selected _GET_ from the URL area. You do not need to set any input data from Body tab.
+
+## Deploy
+
+Deploying REST web service is easier than anything. Simply create a war file of your project. Then put that war file in your tomacat's webapps folder. At last restart the tomcat server. That's it. 
