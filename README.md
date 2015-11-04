@@ -8,7 +8,7 @@ If you are interested to do everything from scratch then go through the followin
 * You have to change the default web.xml file to register Jersey as Servlet dispatcher. I have already done it.
 * I have used Apache Tomcat 7.0 Server.
 
-## Description
+## Project Description
 The project contains two classes:
 * __RestWebService:__ This class contains two methods. One is a @Post method and another one is a @Get method. This class is actually our service class. Both methods return JSON String. The @Post method consumes JSON data.
 * __Utility:__ This class is used to construct JSON data.
