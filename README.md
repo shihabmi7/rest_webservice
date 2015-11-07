@@ -17,7 +17,7 @@ The project contains two classes:
 * You can right click on the project and Run As>Run On Server. After running it might show HTTP 404, but don't worry, this is just for inappropriate URL of your service. As your service in running on tomcat server you can test it now.
 * _Postman_ is a good tool to test REST service. If you do not have it yet get it in your google chrome browser as an extension. After adding it you can see a new icon in your windows task bar. Open Postman and test both @Post and @Get method in the following way:
 
-__@Post method:__ The post method URL is http://localhost:8080/restbeesmart/classpath/postmethodpath. This method consumes JSON data. For example:
+__@Post method:__ The post method URL is http://localhost:8080/rest_webservice/classpath/postmethodpath. This method consumes JSON data. For example:
 ```Json
 {
     "name":"Shohrab",
@@ -37,7 +37,7 @@ You should see the following response if you click on Send button
 }
 ```
 
-__@Get method:__ The get method URL is http://localhost:8080/restbeesmart/classpath/getmethodpath. You should see the following response:
+__@Get method:__ The get method URL is http://localhost:8080/rest_webservice/classpath/getmethodpath. You should see the following response:
 
 ```Json
 {
