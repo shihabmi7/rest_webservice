@@ -56,4 +56,8 @@ Make sure that you have selected _GET_ from the URL area. You do not need to set
 
 ## Deploy
 
-Deploying REST web service is easier than anything. Simply create a war file of your project. Then put that war file in your tomacat's webapps folder. At last restart the tomcat server. That's it. 
+Deploying REST web service is easier than anything. Simply create a war file of your project.  Then put that war file in your tomacat's webapps folder. At last restart the tomcat server. That's it. 
+__Note:__ If you use any external libraries (e.g. *.jar files) then you have to add them from _Deployment Assembly._ Deployment Assembly is available in project properties. To add jar files click on _Add_ then click on _Java Build Path Entries_. If you can't see anything here then you have to add them in _Java Build Path_ first. 
+
+CHEERS :)
+SHOHRAB
