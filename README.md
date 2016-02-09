@@ -4,7 +4,7 @@ You can learn how to create and deploy Jersy REST web service in Eclipse from th
 ## Introduction: 
 If you are interested to do everything from scratch then go through the following steps:
 * Create a dynamic web project in eclipse.
-* You need jery jar files to write a Jersy based REST web service. You can downlaod jersy jar files from  https://jersey.java.net/download.html. However, I have already downloaded and put them into project's /lib folder
+* You need jersy jar files to write a Jersy based REST web service. You can downlaod jersy jar files from  https://jersey.java.net/download.html. However, I have already downloaded and put them into project's /lib folder
 * You have to change the default web.xml file to register Jersey as Servlet dispatcher. I have already done it.
 * I have used Apache Tomcat 7.0 Server.
 
@@ -60,5 +60,6 @@ Deploying REST web service is easier than anything. Simply create a war file of 
 
 __Note:__ If you use any external libraries (e.g. *.jar files) then you have to add them from _Deployment Assembly._ Deployment Assembly is available in project properties. To add jar files click on _Add_ then click on _Java Build Path Entries_. If you can't see anything here then you have to add them in _Java Build Path_ first. 
 
-CHEERS :)
+Cheers
+
 SHOHRAB
